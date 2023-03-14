@@ -10,7 +10,7 @@ const Settings = () => {
     const [email, setEmail] = useState(user.email)
     const [password, setPassword] = useState(user.password)
     const [success, setSuccess] = useState(false);
-    const PF = "http://localhost:5000/images/"
+    const PF = "https://dflextech.onrender.com/images/"
 
 
     const handleSubmit = async (e)=>{

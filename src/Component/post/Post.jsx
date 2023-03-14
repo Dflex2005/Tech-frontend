@@ -2,7 +2,7 @@ import "./post.scss"
 import {NavLink} from "react-router-dom"
 
 const post = ({post}) => {
-  const PF = "http://localhost:5000/images/"
+  const PF = "https://dflextech.onrender.com/images/"
   return (
     <NavLink className="link" to={`post/${post._id}`}>
     <div className="post">
