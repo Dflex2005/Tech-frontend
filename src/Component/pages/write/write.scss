@@ -1,0 +1,19 @@
+.write{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+
+    .write-img{
+        width: 60vw;
+        height: 250px;
+        object-fit: cover;
+        border-radius: 20px;
+        background-position: top center;
+    }
+
+    form{
+        width: 100%;
+    }
+}

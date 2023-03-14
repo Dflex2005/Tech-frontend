@@ -1,0 +1,24 @@
+.single{
+    margin-top: 300px;
+    width: 100%;
+    flex-direction: column;
+
+    .top{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .img-card{
+            width: 700px;
+            height: 400px;
+    
+            .main-img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+
+    
+}
